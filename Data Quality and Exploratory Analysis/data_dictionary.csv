@@ -1,0 +1,12 @@
+Column,Type,Meaning,Observed values
+CustomerID,Text,Unique ID for each customer,CUST-1001 to CUST-1015
+Gender,Text,Customer gender,"Male, Female"
+Age,Whole number,Customer age in years,23 to 60
+TenureMonths,Whole number,Months the customer has been subscribed,2 to 48
+SubscriptionType,Text,Plan the customer pays for,"Basic, Pro, Enterprise"
+MonthlyCharges,Decimal,Price paid per month,"49.99, 79.99, 149.99"
+TotalCharges,Decimal,Total paid so far (TenureMonths x MonthlyCharges),99.98 to 7199.52
+ContractType,Text,Length of the contract,"Month-to-Month, One Year, Two Year"
+SupportTickets,Whole number,Number of support requests raised,0 to 6
+PaymentMethod,Text,How the customer pays,"Credit Card, Debit Card, UPI, Bank Transfer"
+Churn,Text,Did the customer leave?,"Yes, No"
